@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9D16E06F-3C17-7984-665A-26F7F3D40B97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMobileAds", "GoogleMobileAds.csproj", "{64621BFA-B381-D688-C227-4F0A181727CC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMobileAds.Editor", "GoogleMobileAds.Editor.csproj", "{D53BEB90-A73B-9C16-FD30-BBB34E90367A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{F833CC24-4529-024E-41A2-43A2AFC5CC80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2DF158DB-56C4-7F96-B123-5C560384B299}"
@@ -21,14 +17,6 @@ Global
 		{9D16E06F-3C17-7984-665A-26F7F3D40B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D16E06F-3C17-7984-665A-26F7F3D40B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D16E06F-3C17-7984-665A-26F7F3D40B97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64621BFA-B381-D688-C227-4F0A181727CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64621BFA-B381-D688-C227-4F0A181727CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64621BFA-B381-D688-C227-4F0A181727CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64621BFA-B381-D688-C227-4F0A181727CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D53BEB90-A73B-9C16-FD30-BBB34E90367A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D53BEB90-A73B-9C16-FD30-BBB34E90367A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D53BEB90-A73B-9C16-FD30-BBB34E90367A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D53BEB90-A73B-9C16-FD30-BBB34E90367A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F833CC24-4529-024E-41A2-43A2AFC5CC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F833CC24-4529-024E-41A2-43A2AFC5CC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F833CC24-4529-024E-41A2-43A2AFC5CC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
