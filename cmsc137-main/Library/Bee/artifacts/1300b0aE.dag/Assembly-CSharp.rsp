@@ -334,8 +334,6 @@
 -r:"C:/Users/Tiff/Documents/GitHub/CMSC137/cmsc137-main/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
 -r:"C:/Users/Tiff/Documents/GitHub/CMSC137/cmsc137-main/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Analytics.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/GoogleMobileAds.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/GoogleMobileAds.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
