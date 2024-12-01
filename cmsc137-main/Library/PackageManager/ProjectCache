@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638686254218187968
-    m_Hash: 3568203969
+      ticks: 638686262389675150
+    m_Hash: 9547391
   m_LockFileStatus:
     m_FilePath: C:/Users/Tiff/Documents/GitHub/CMSC137/cmsc137-main/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638686253908919624
+      ticks: 638686257900676457
     m_Hash: 681174093
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
