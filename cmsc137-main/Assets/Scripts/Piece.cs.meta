@@ -1,3 +1,14 @@
-﻿fileFormatVersion: 2
+fileFormatVersion: 2
 guid: 68b77eb08a40413b81eadfeaaf39eaaa
-timeCreated: 1547205374
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spRenderer: {instanceID: 0}
+  - defaultMaterial: {fileID: 2100000, guid: a7ff4ad5c76e1fb469268dd0a277e6fe, type: 2}
+  - glowMaterial: {fileID: 2100000, guid: a7ff4ad5c76e1fb469268dd0a277e6fe, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

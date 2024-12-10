@@ -82,11 +82,12 @@ public class Board : MonoBehaviour,IInitializable
         }
 
         var boardTile = this[to];
-    if(boardTile==null)
+        if (boardTile == null)
             return;
-
+        piece.EnableGlow();
         if (boardTile.Tile != null)
         {
+            // Logic to handle the case where there is a tile on the boardTile
         }
 
         piece.transform.position = boardTile.transform.position;
@@ -160,6 +161,7 @@ public class Board : MonoBehaviour,IInitializable
         targetBoardTiles.ForEach((i, tile) =>
         {
             AddPiece(pieces[i],tile.LocalCoordinate);
+            pieces[i].EnableGlow();
         });
 
     }
@@ -186,9 +188,9 @@ public class Board : MonoBehaviour,IInitializable
     public void OnDragShape()
     { 
         CalculateMatchCoordinateForDraggingShape();
-       CalculateMatchLinesForDraggingShape();
-       UpdateDecorativePieceForDraggingShape();
-       UpdateMatchLineEffectForDraggingShape();
+        CalculateMatchLinesForDraggingShape();
+        UpdateDecorativePieceForDraggingShape();
+        UpdateMatchLineEffectForDraggingShape();
     }
 
     public void OnStartDragShape(Shape shape)
@@ -198,8 +200,6 @@ public class Board : MonoBehaviour,IInitializable
 
     public void ClearDragShape()
     {
-
-
         DraggingShape = null;
 
     }

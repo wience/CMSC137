@@ -6,7 +6,9 @@ using UnityEngine;
 public class Piece : Tile
 {
     [SerializeField] protected SpriteRenderer spRenderer;
-    
+    [SerializeField] public Material defaultMaterial; // Assign this in the Unity Inspector
+    [SerializeField] public Material glowMaterial; // Assign this in the Unity Inspector
+
 
     private int _color;
     private bool _isDecorator;
@@ -57,4 +59,26 @@ public class Piece : Tile
     }
 
     public override int Order => 2;
+
+    public void EnableGlow()
+    {
+        Debug.Log("EnableGlow called");
+    if (glowMaterial != null)
+    {
+        spRenderer.material = glowMaterial;
+        transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
+    }
+    else
+    {
+        Debug.LogWarning("Glow material is not assigned!");
+    }
+    }
+
+    public void DisableGlow()
+    {
+        if (defaultMaterial != null)
+        {
+            spRenderer.material = defaultMaterial;
+        }
+    }
 }

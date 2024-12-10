@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GoogleMobileAds\Api\Core\NativeAdType.cs" />
-    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\DisplayMetrics.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RequestConfigurationClient.cs" />
     <Compile Include="Assets\GoogleMobileAds\Common\IRewardedInterstitialAdClient.cs" />
     <Compile Include="Assets\GoogleMobileAds\Common\IRewardedAdClient.cs" />

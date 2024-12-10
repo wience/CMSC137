@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\RatingButton.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\ICycleTile.cs" />
     <Compile Include="Assets\Scripts\HintProduct.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />

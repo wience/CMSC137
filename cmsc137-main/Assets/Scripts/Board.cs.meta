@@ -3,7 +3,13 @@ guid: 0b1413f2c3dc22b419dccc8b5340beae
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - boardTilePrefab: {instanceID: 0}
+  - piecePrefab: {instanceID: 0}
+  - _diamondBreakEffectPrefab: {instanceID: 0}
+  - placeShapeClip: {instanceID: 0}
+  - matchLineClip: {instanceID: 0}
+  - glowMaterial: {fileID: 2100000, guid: a7ff4ad5c76e1fb469268dd0a277e6fe, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
